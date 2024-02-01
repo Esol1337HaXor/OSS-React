@@ -1,0 +1,97 @@
+.dateien-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #151914;
+}
+.dateien-navlink {
+  display: contents;
+}
+.dateien-component {
+  text-decoration: none;
+}
+.dateien-content {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.dateien-navlink1 {
+  display: contents;
+}
+.dateien-component1 {
+  text-decoration: none;
+}
+.dateien-navlink2 {
+  display: contents;
+}
+.dateien-analyse {
+  flex: 0 0 auto;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  border-color: var(--dl-color-primary-gruen);
+  border-width: 1px;
+  padding-left: 0px;
+  border-radius: var(--dl-radius-radius-radius22);
+  padding-right: 0px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.dateien-text {
+  line-height: 1.15;
+}
+.dateien-navlink3 {
+  display: contents;
+}
+.dateien-dateien {
+  flex: 0 0 auto;
+  width: 90%;
+  display: flex;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  border-color: var(--dl-color-primary-gruen);
+  border-width: 1px;
+  padding-left: 0px;
+  border-radius: var(--dl-radius-radius-radius22);
+  padding-right: 0px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.dateien-text1 {
+  line-height: 1.15;
+}
+.dateien-navlink4 {
+  display: contents;
+}
+.dateien-hosting {
+  flex: 0 0 auto;
+  width: 90%;
+  display: flex;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  border-color: var(--dl-color-primary-gruen);
+  border-width: 1px;
+  padding-left: 0px;
+  border-radius: var(--dl-radius-radius-radius22);
+  padding-right: 0px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.dateien-text2 {
+  line-height: 1.15;
+}

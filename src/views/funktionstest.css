@@ -1,0 +1,27 @@
+.funktionstest-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-primary-bg);
+}
+.funktionstest-container1 {
+  width: var(--dl-size-size-xxlarge);
+  height: var(--dl-size-size-xxlarge);
+  align-self: center;
+}
+.funktionstest-container2 {
+  display: contents;
+}
+.funktionstest-text {
+  align-self: center;
+}
+.funktionstest-navlink {
+  display: contents;
+}
+.funktionstest-component1 {
+  text-decoration: none;
+}

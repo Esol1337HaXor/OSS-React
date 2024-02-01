@@ -1,0 +1,68 @@
+.vektorgrafik-ex-container {
+  top: 60px;
+  flex: 0 0 auto;
+  right: 0px;
+  width: auto;
+  height: auto;
+  display: flex;
+  z-index: 101;
+  position: fixed;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.vektorgrafik-ex-container1 {
+  flex: 0 0 auto;
+  width: 95vw;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  max-width: var(--dl-size-size-maxwidth);
+  min-height: 100px;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: var(--dl-color-gray-metal);
+  border-top-left-radius: var(--dl-radius-radius-radius22);
+  border-bottom-left-radius: var(--dl-radius-radius-radius22);
+}
+.vektorgrafik-ex-icon {
+  width: 24px;
+  height: 24px;
+}
+.vektorgrafik-ex-container2 {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.vektorgrafik-ex-navlink {
+  color: var(--dl-color-primary-bg);
+  text-decoration: underline;
+}
+.vektorgrafik-ex-container3 {
+  flex: 0 0 auto;
+  width: 25px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  padding-left: 4px;
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-gray-metal);
+  border-top-left-radius: var(--dl-radius-radius-radius22);
+  border-bottom-left-radius: var(--dl-radius-radius-radius22);
+}
+.vektorgrafik-ex-icon2 {
+  fill: var(--dl-color-primary-bg);
+  width: 24px;
+  height: 24px;
+}
+.vektorgrafik-ex-root-class-name {
+  top: 95px;
+  right: 0px;
+  align-self: flex-end;
+}
+

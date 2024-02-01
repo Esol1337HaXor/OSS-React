@@ -1,0 +1,46 @@
+.a-backbutton-backbutton {
+  flex: 0 0 auto;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  bottom: 0px;
+  height: 75px;
+  display: flex;
+  z-index: 101;
+  position: fixed;
+  max-width: 1200px;
+  align-self: center;
+  align-items: center;
+  margin-left: auto;
+  border-color: var(--dl-color-primary-gruen);
+  border-style: solid;
+  border-width: 1px;
+  margin-right: auto;
+  border-radius: 50px;
+  margin-bottom: -1px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-primary-bg);
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.a-backbutton-image {
+  width: auto;
+  height: 18px;
+  object-fit: cover;
+}
+
+
+@media(max-width: 480px) {
+  .a-backbutton-backbutton {
+    height: 50px;
+  }
+}
+@media(max-width: 360px) {
+  .a-backbutton-backbutton {
+    height: 50px;
+    z-index: 400;
+  }
+}

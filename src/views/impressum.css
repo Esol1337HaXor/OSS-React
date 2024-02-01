@@ -1,0 +1,105 @@
+.impressum-container {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-fourunits);
+  overflow: auto;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-primary-bg);
+}
+.impressum-container1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.impressum-container2 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.impressum-text {
+  padding: var(--dl-space-space-unit);
+  align-self: flex-start;
+}
+.impressum-text01 {
+  color: var(--dl-color-gray-metal);
+  padding: var(--dl-space-space-unit);
+}
+.impressum-container3 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.impressum-text30 {
+  padding: var(--dl-space-space-unit);
+  align-self: flex-start;
+}
+.impressum-text31 {
+  color: var(--dl-color-gray-metal);
+  padding: var(--dl-space-space-unit);
+  text-align: start;
+}
+.impressum-navlink {
+  padding: var(--dl-space-space-unit);
+  text-decoration: underline;
+}
+@media(max-width: 991px) {
+  .impressum-container {
+    padding: var(--dl-space-space-twounits);
+  }
+}
+@media(max-width: 480px) {
+  .impressum-container1 {
+    justify-content: flex-start;
+  }
+}
+@media(max-width: 479px) {
+  .impressum-text01 {
+    padding-left: 10vw;
+  }
+  .impressum-text31 {
+    padding-left: 10vw;
+  }
+  .impressum-text32 {
+    padding-left: 10vw;
+  }
+  .impressum-text33 {
+    padding-left: 10vw;
+  }
+  .impressum-text34 {
+    padding-left: 10vw;
+  }
+  .impressum-text35 {
+    padding-left: 10vw;
+  }
+  .impressum-text36 {
+    padding-left: 10vw;
+  }
+  .impressum-text37 {
+    padding-left: 10vw;
+  }
+  .impressum-text38 {
+    padding-left: 10vw;
+  }
+  .impressum-text39 {
+    padding-left: 10vw;
+  }
+  .impressum-text40 {
+    padding-left: 10vw;
+  }
+}
+@media(max-width: 360px) {
+  .impressum-container {
+    padding: var(--dl-space-space-unit);
+  }
+  .impressum-container1 {
+    justify-content: flex-start;
+  }
+}

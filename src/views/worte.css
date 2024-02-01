@@ -1,0 +1,19 @@
+.worte-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #151914;
+}
+.worte-navlink {
+  display: contents;
+}
+.worte-component {
+  text-decoration: none;
+}
+.worte-container2 {
+  display: contents;
+}

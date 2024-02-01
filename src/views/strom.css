@@ -1,0 +1,15 @@
+.strom-container {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #151914;
+}
+.strom-navlink {
+  display: contents;
+}
+.strom-component1 {
+  text-decoration: none;
+}
